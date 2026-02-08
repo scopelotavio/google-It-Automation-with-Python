@@ -791,6 +791,173 @@ More information about files and directories can be found in several resources p
 
 
 
+## Review: Reading CSV files
+
+The code above will read the data from the CSV file ```csv_file.txt``` and print the following information for each row:
+- Name
+- Phone number
+- Role
+
+
+```python
+import csv
+ f = open("csv_file.txt")
+ csv_f = csv.reader(f)
+ for row in csv_f:
+     name, phone, role = row
+     print("Name: {}, Phone: {}, Role: {}".format(name, phone, role))
+f.close()
+```
+
+**Example output:**
+Name: Sabrina Green, Phone: 802-867-5309, Role: System Administrator
+Name: Eli Jones, Phone: 684-3481127, Role: IT specialist
+Name: Melody Daniels, Phone: 846-687-7436, Role: Programmer
+Name: Charlie Rivera, Phone: 698-746-3357, Role: Web Developer
+
+
+
+
+
+## Review: Generating CSV
+These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
+
+```python
+import csv
+
+hosts = [["workstation.local", "192.168.25.46"],["webserver.cloud", "10.2.5.6"]]
+with open('hosts.csv', 'w') as hosts_csv:
+    writer = csv.writer(hosts_csv)
+    writer.writerows(hosts)
+```
+
+
+
+
+
+## Review: Reading and writing CSV files with dictionaries
+
+
+### About this code
+Here the code is opening the file and creating a DictReader to process our CSV data. Then, it’s going through the rows to access information in each row using the keys just like we would when accessing data in the dictionary. 
+
+
+```bash
+#the following command should be used in the terminal
+cat software.csv 
+#Output name,version,status,users
+#MailTree,5.34,production,324
+#CalDoor,1.25.1,beta,22
+#Chatty Chicken,0.34,alpha,4
+```
+
+```python
+with open('software.csv') as software:
+    reader = csv.DictReader(software)
+    for row in reader:
+      print(("{} has {} users").format(row["name"], row["users"]))
+```
+
+Code output: 
+```python
+MailTree has 324 users
+CalDoor has 22 users
+Chatty Chicken has 4 users
+```
+
+
+### About this code
+Here the code creates a list of dictionaries with the data that we want to store. For this example, we want to store data about the users in our company and the departments that they work in. So here we have our list of dictionaries and each contain the keys, name, username and department. We now want to write this CSV file. So we first define the list of keys that we want to write to the file, then we open the file for writing. Next we created the DictWriter passing the keys that we had identified before, and then we call two different methods on the writer. The writeheader() method will create the first line of the CSV based on keys that we passed, and the writerows() method will turn the list of dictionaries into lines in that file. 
+
+
+```python
+users = [ {"name": "Sol Mansi", "username": "solm", "department": "IT infrastructure"}, 
+ {"name": "Lio Nelson", "username": "lion", "department": "User Experience Research"}, 
+  {"name": "Charlie Grey", "username": "greyc", "department": "Development"}]
+keys = ["name", "username", "department"]
+with open('by_department.csv', 'w') as by_department:
+    writer = csv.DictWriter(by_department, fieldnames=keys)
+    writer.writeheader()
+    writer.writerows(users)
+```
+
+Code output: 
+```python
+Name,username,department
+
+Sol Mansi,solm, IT infrastructure
+
+Lio Nelson,lion,User Experience Researcher
+
+Charlie Grey,greyc,Development
+```
+
+
+
+
+
+## Study guide: .csv files
+The most common format for importing and exporting data for spreadsheets is a `.csv` format. A Comma Separated Values (.csv) file is a plain text file that uses—you guessed it—commas to separate each piece of data. You may already be familiar with `.csv` files if you have saved a spreadsheet in the .csv format. Here is a simple example of a .csv file displaying employee information:
+
+```csv
+Name, Department, Salary
+Aisha Khan, Engineering, 80000
+Jules Lee, Marketing, 67000
+Queenie Corbit, Human Resources, 90000
+```
+
+Notice that each row represents an employee’s information, and the values are separated by commas. 
+
+In this reading, you will examine different commands to use when working with `.csv` files in Python and be provided with additional links for more information.
+
+
+### Module contents
+The `.csv` module is a built-in Python functionality used to read and work with `.csv` files. Let’s look at how the `.csv` module defines some of these functions:
+
+#### Reader
+`csv.reader` This function returns a reader object that iterates over lines in the `.csv` file.
+
+#### Writer
+`csv.writer` This function returns a writer object that’s responsible for converting the user’s data into delimited strings on the given file-like object.
+
+#### DictReader
+`class csv.DictReader` This function creates an object that functions as a regular reader but maps the information in each row to a dictionary whose keys are given by the optional fieldname parameters.
+
+
+### Dialects and formatting parameters
+Dialects are rules that define how a `.csv` file is structured, and parameters are formed to control the behavior of the `.csv` reader and writer and live within dialects. The following  features are supported by dialects:
+
+`Dialect.delimiter` This attribute is a one-character string used to separate fields and defaults to a comma.
+
+`Dialect.quotechar` This attribute is a one-character string used to quote fields containing special characters and defaults to ‘ ‘’ ‘.
+
+`Dialect.strict`  This attribute’s default is False, but when True, exception csv.Error will be raised if an error is detected.
+
+
+### Reader objects
+A reader object contains the following public methods and attributes:
+
+`csvreader._next_()` This method returns the next row of the reader’s iterable object as a list or a dictionary, parsed properly to the current dialect. Typically, you would call this next(reader).
+
+`csvreader.dialect` This attribute is a read-only description of the dialect in use by the parser.
+
+
+### Writer objects
+Writer objects provide you the capability to write data to a .csv file. Let’s look at a couple of public methods and attributes for writer objects:
+
+`csvwriter.writerows(rows)` This method writes all elements in rows to the writer’s file object and formats following the current dialect.
+
+`csvwriter.dialect` This attribute is a read-only description of the dialect being used by the writer.
+
+
+### Key takeaways
+If you haven’t worked with .csv files yet, it’s only a matter of time. Become familiar with the .csv module’s reader and writer objects to work more efficiently with .csv files. The modules, features, and attributes in this reading are only some of the commands that can be used while working with .csv files. 
+
+### Resources for more information
+This [document](https://docs.python.org/3/library/csv.html) provides additional information on how to read and write functions using .csv files.
+
+This [document](https://realpython.com/python-csv/) provides additional information on what a .csv file is, how to parse .csv files with Python’s built-in .csv library, and how to parse .csv files with the pandas library.
+
 # Module 03 - Regular Expressions
 
 
