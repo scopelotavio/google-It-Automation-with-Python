@@ -1,4 +1,4 @@
-# Module 01 - Hello Python
+# Module 01 - Automating with Configuration Management
 
 
 
