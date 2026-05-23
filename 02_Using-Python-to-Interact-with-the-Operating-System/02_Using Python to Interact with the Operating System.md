@@ -1,215 +1,178 @@
+# Using Python to Interact with the Operating System
+
+
+
+# Welcome to the course
+
+## Welcome to the course!
+In this course, you’ll learn how to use Python to perform system administration tasks and interact with a computer’s operating system. You’re about to embark on an exciting journey to learn one of the most in-demand job skills in IT today!
+
+![Course menu showing courses 1-6. Course 1 is complete. Course 2 is active and courses 3-6 are not yet complete.][img010101]
+
+This is the second course in the program.
+1. [Crash Course on Python](https://www.coursera.org/learn/python-crash-course/home/welcome)
+2. Using Python to Interact with the Operating System (this course)
+3. [Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github/home/welcome)
+4. [Troubleshooting and Debugging Techniques](https://www.coursera.org/learn/troubleshooting-debugging-techniques/home/welcome)
+5. [Configuration Management and the Cloud](https://www.coursera.org/learn/configuration-management-cloud/home/welcome)
+6. [Automating Real-World Tasks with Python](https://www.coursera.org/learn/automating-real-world-tasks-python/home/welcome)
+7. [Accelerate Your Job Search with AI](https://www.coursera.org/learn/accelerate-your-job-search-with-ai/home/module/1)
+
+
+## Course prerequisites
+This course builds upon the contents taught in the introduction to Python course:
+- The basic Python syntax (if, for, while, defining functions, classes, and methods)
+- How to use the most common data structures (strings, lists, tuples, and dictionaries)
+- How to import and use additional Python modules
+
+This course also requires some familiarity with some basic operating system concepts:
+- Files, directories, and file systems
+- Processes
+- Log files
+
+To get the most out of this course, we strongly recommend that you install software in your machine, or have your system administrator install it.
+
+## Obtain the Google IT Automation with Python Certificate
+To receive your official Google IT Automation with Python Certificate, you must:
+- Pass all graded assignments in all 7 courses of the certificate program. Each graded assignment is part of a cumulative graded score for the course, and the passing grade for each course is 80%. 
+
+AND one of the following:
+- Pay the [course certificate fee](https://www.coursera.support/s/article/209818963-Payments-on-Coursera?language=en_US)
+
+- Be approved for [Coursera Financial Aid](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=en_US)
+, or
+
+- Complete the certificate through an educational institution, employer, or agency that's sponsoring your participation. 
+
+
+## Healthy habits for course completion
+Here is a list of best practices that will help you complete the courses in the program in a timely manner: 
+
+1. **Plan your time:** Setting regular study times and following them each week can help you make learning a part of your routine. Use a calendar or timetable to create a schedule, and list what you plan to do each day in order to set achievable goals. Find a space that allows you to focus when you watch the videos, review the readings, and complete the activities.
+
+2. **Work at your own pace:** Everyone learns differently, so this program has been designed to let you work at your own pace. Although your personalized deadlines start when you enroll, feel free to progress through the program at the speed that works best for you. There is no penalty for late assignments; to earn your certificate, all you have to do is complete all of the work. You can extend your deadlines at any time by going to Overview in the navigation panel and selecting Switch Sessions. If you have already missed previous deadlines, select Reset my deadlines instead.
+
+3. **Be curious:** If you find an idea that gets you excited, act on it! Enrich your learning experience with Gemini's [Guided Learning feature](https://blog.google/outreach-initiatives/education/guided-learning/). It acts as your personal learning assistant, helping you ask insightful questions, find more details online, and explore interesting topics. The steps you take to support your learning along the way will advance your knowledge, create more opportunities in this high-growth field, and help you qualify for jobs. 
+
+4. **Take notes:** Notes will help you remember important information in the future, especially as you’re preparing to enter a new job field. In addition, taking notes is an effective way to make connections between topics and gain a better understanding of those topics.
+
+5. **Review exemplars:** Exemplars are completed assignments that fully meet an activity's criteria. Many activities in this program have exemplars for you to compare to your own work. Although there are often many ways to complete an assignment, exemplars offer you guidance and inspiration about how to complete the activity. 
+
+6. **Build your Career Identity:** Your career identity is the unique value you bring to the workforce. [Watch this video](https://www.youtube.com/watch?v=_xbT4qMrot4) to learn about the key components of career identity and write your own career identity statement. Discovering and defining your own career identity makes you better equipped to choose a career path that aligns with your strengths, values, and goals and is more effective in your chosen profession.
+
+7. **Connect with other learners:** If you have a question, chances are, you’re not alone. You can visit Coursera’s private [Google IT 201 Automation with Python Community](https://www.coursera.support/s/group-invite?id=MEY5OFcwMDAwMDB3bWt0U0FB) to expand your network, discuss career journeys, and share experiences. You can also check out the [quick start guide](https://www.coursera.support/s/article/Community-Quick-Start-Guide).
+
+8. **Coursera learner support:** Use the [Learner Help Center](https://learner.coursera.help/hc/en-us) to find information on specific technical issues. These include error messages, difficulty submitting assignments, or problems with video playback. If you can’t find an answer in the documentation, you can also report your problem to the Coursera support team by clicking on the Contact Us! link available at the bottom of help center articles.
+
+9. **Update your profile:** Consider [updating your profile](https://www.coursera.org/account/profile) on Coursera to include your photo, career goals, and more. When other learners find you in the Community, they can click on your name to access your profile and get to know you better.
+
+
+## Finding out more information
+Throughout this course, we teach you how to do a range of things with Python, Bash, and other tools. While we’ll provide a lot of information through videos and supplemental readings, sometimes, you may need to look things up on your own, now and throughout your career. Things change fast in IT, so it’s critical to do your own research to stay up-to-date on what’s new. We recommend you use your favorite search engine to find more information about concepts we cover in this course — it’s great practice for the real world!
+
+On top of search results, here are some good programming resources available online:
+
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/): This book (available online and in print) includes a lot of practical programming exercises for beginners. You can refer to this content to read more about some of the things that we'll be discussing, and get inspired with more ideas of things that can be automated.
+
+- [Hitchhiker’s Guide to Python](https://docs.python-guide.org/): This site (available online and in print) also covers a lot of what we can do with Python. Again, you can use this resource to learn more about the subjects we cover (and the ones we had to omit for time constraints).
+
+- The [official language reference](https://docs.python.org/3/reference/index.html): Once you know what Python tool you'll be using to do a certain task, this technical reference of all Python language components can be a great resource.   
+
+**Note:** As you progress this course you may see updated or repeated content due to Google’s regular review of the certificate program to provide the most up-to-date skills and tools in the industry. These changes include the addition of new practice material and supportive content. In addition, Google’s certificate updates sometimes include changes to graded items like quizzes and labs. If you have previously completed a graded item in this course, you may need to take a new assessment to complete this course. We hope the new content will support you on your learning journey!
+
+
+
+
+
+
+
+
+
+
 # Module 01 - Getting your Python On
 
 
 
 
 
-## Welcome to the course
-Welcome to the course!
-In this course, you’ll learn how to use Python to perform system administration tasks and interact with a computer’s operating system. You’re about to embark on an exciting journey to learn one of the most in-demand job skills in IT today!
-
-Course menu showing courses 1-6. Course 1 is complete. Course 2 is active and courses 3-6 are not yet complete.
-This is the second course in the program.
-
-Crash Course on Python
- 
-
-Using Python to Interact with the Operating System (this course)
-
-Introduction to Git and GitHub
-
-Troubleshooting and Debugging Techniques
-
-Configuration Management and the Cloud
-
-Automating Real-World Tasks with Python
-
-Accelerate Your Job Search with AI
-
-Course prerequisites
-This course builds upon the contents taught in the introduction to Python course:
-
-The basic Python syntax (if, for, while, defining functions, classes, and methods)
-
-How to use the most common data structures (strings, lists, tuples, and dictionaries)
-
-How to import and use additional Python modules
-
- This course also requires some familiarity with some basic operating system concepts:
-
-Files, directories, and file systems
-
-Processes
-
-Log files
-
-To get the most out of this course, we strongly recommend that you install software in your machine, or have your system administrator install it.
-
-Obtain the Google IT Automation with Python Certificate
-To receive your official Google IT Automation with Python Certificate, you must:
-
-Pass all graded assignments in all 7 courses of the certificate program. Each graded assignment is part of a cumulative graded score for the course, and the passing grade for each course is 80%. 
-
-AND one of the following:
-
-Pay the
- course certificate fee
-,
-
-Be approved for
- Coursera Financial Aid
-, or
-
-Complete the certificate through an educational institution, employer, or agency that's sponsoring your participation. 
-
-Healthy habits for course completion
-Here is a list of best practices that will help you complete the courses in the program in a timely manner: 
-
-Plan your time: Setting regular study times and following them each week can help you make learning a part of your routine. Use a calendar or timetable to create a schedule, and list what you plan to do each day in order to set achievable goals. Find a space that allows you to focus when you watch the videos, review the readings, and complete the activities.
-
-Work at your own pace: Everyone learns differently, so this program has been designed to let you work at your own pace. Although your personalized deadlines start when you enroll, feel free to progress through the program at the speed that works best for you. There is no penalty for late assignments; to earn your certificate, all you have to do is complete all of the work. You can extend your deadlines at any time by going to Overview in the navigation panel and selecting Switch Sessions. If you have already missed previous deadlines, select Reset my deadlines instead.
-
-Be curious: If you find an idea that gets you excited, act on it! Enrich your learning experience with Gemini's
- Guided Learning feature
-. It acts as your personal learning assistant, helping you ask insightful questions, find more details online, and explore interesting topics. The steps you take to support your learning along the way will advance your knowledge, create more opportunities in this high-growth field, and help you qualify for jobs. 
-
-Take notes: Notes will help you remember important information in the future, especially as you’re preparing to enter a new job field. In addition, taking notes is an effective way to make connections between topics and gain a better understanding of those topics.
-
-Review exemplars: Exemplars are completed assignments that fully meet an activity's criteria. Many activities in this program have exemplars for you to compare to your own work. Although there are often many ways to complete an assignment, exemplars offer you guidance and inspiration about how to complete the activity. 
-
-Build your Career Identity: Your career identity is the unique value you bring to the workforce.
- Watch this video
- to learn about the key components of career identity and write your own career identity statement. Discovering and defining your own career identity makes you better equipped to choose a career path that aligns with your strengths, values, and goals and is more effective in your chosen profession.
-
-Connect with other learners: If you have a question, chances are, you’re not alone. You can visit Coursera’s private
- Google IT 201 Automation with Python Community
- to expand your network, discuss career journeys, and share experiences. You can also check out the
- quick start guide
-.
-
-Coursera learner support: Use the
- Learner Help Center
- to find information on specific technical issues. These include error messages, difficulty submitting assignments, or problems with video playback. If you can’t find an answer in the documentation, you can also report your problem to the Coursera support team by clicking on the Contact Us! link available at the bottom of help center articles.
-
-Update your profile: Consider
- updating your profile
- on Coursera to include your photo, career goals, and more. When other learners find you in the Community, they can click on your name to access your profile and get to know you better.
-
-Finding out more information
-Throughout this course, we teach you how to do a range of things with Python, Bash, and other tools. While we’ll provide a lot of information through videos and supplemental readings, sometimes, you may need to look things up on your own, now and throughout your career. Things change fast in IT, so it’s critical to do your own research to stay up-to-date on what’s new. We recommend you use your favorite search engine to find more information about concepts we cover in this course — it’s great practice for the real world!
-
- On top of search results, here are some good programming resources available online:
-
-Automate the Boring Stuff with Python
-: This book (available online and in print) includes a lot of practical programming exercises for beginners. You can refer to this content to read more about some of the things that we'll be discussing, and get inspired with more ideas of things that can be automated.
-
-Hitchhiker’s Guide to Python
-: This site (available online and in print) also covers a lot of what we can do with Python. Again, you can use this resource to learn more about the subjects we cover (and the ones we had to omit for time constraints).
-
-The 
-official language reference
-: Once you know what Python tool you'll be using to do a certain task, this technical reference of all Python language components can be a great resource.   
-
-Note: As you progress this course you may see updated or repeated content due to Google’s regular review of the certificate program to provide the most up-to-date skills and tools in the industry. These changes include the addition of new practice material and supportive content. In addition, Google’s certificate updates sometimes include changes to graded items like quizzes and labs. If you have previously completed a graded item in this course, you may need to take a new assessment to complete this course. We hope the new content will support you on your learning journey!
+## Getting Ready for Python
 
 
 
+### Pointers for Getting Your Environment Setup
+
+#### Learning more about operating systems
+We’ve talked briefly about what an operating system is and what we'll need to know about operating systems for this course. 
+
+- If you want to learn some additional operating system concepts, check out the videos on this subject in the [Technical Support Fundamentals](https://www.coursera.org/learn/technical-support-fundamentals) course. 
+
+- If you want to explore how to manage Windows and Linux, check out the [Operating Systems and You: Becoming a Power User](https://www.coursera.org/learn/os-power-user) course.
+
+- If you want to discover more about the history of Unix, you can read all the details on the Unix 
+[Wikipedia page](https://en.wikipedia.org/wiki/History_of_Unix).
 
 
-## Pointers for Getting Your Environment Setup
-Learning more about operating systems
-We’ve talked briefly about what an operating system is and what we'll need to know about operating systems for this course. If you want to learn some additional operating system concepts, check out the videos on this subject in the 
-Technical Support Fundamentals
- course. If you want to explore how to manage Windows and Linux, check out the 
-Operating Systems and You: Becoming a Power User
- course.
+#### Installing Python and additional modules
+If you don't have Python installed yet, we recommend that you visit the [official Python website](http://www.python.org/) and download the installer that corresponds to your operating system.
 
-If you want to discover more about the history of Unix, you can read all the details on the Unix 
-Wikipedia page
-.
+There’s a bunch of guides out there for installing Python and they all follow a similar process to the one we described in the videos. This [guide from Real Python](https://realpython.com/installing-python/) includes instructions on how to install python on a range of different operating systems and distributions.
 
-Installing Python and additional modules
-If you don't have Python installed yet, we recommend that you visit the 
-official Python website
- and download the installer that corresponds to your operating system.
+Once you have Python installed on your operating system, it's a good idea to familiarize yourself with pip and the associated tools. You can find more info about these [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
 
- There’s a bunch of guides out there for installing Python and they all follow a similar process to the one we described in the videos. This 
-guide from Real Python
- includes instructions on how to install python on a range of different operating systems and distributions.
 
- Once you have Python installed on your operating system, it's a good idea to familiarize yourself with pip and the associated tools. You can find more info about these 
-here
-.
-
-Using package management systems
+#### Using package management systems
 Package management systems help you better manage the software installed on your machine. These management systems vary a lot from operating system to operating system. So, you need to pick the one that works for the OS you’re using. Check out these guides for help with this: 
+- [Installing Python 3 on Windows 10 with Chocolatey](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-windows-10)
+- [Installing Python 3 on MacOS with Homebrew](https://programwithus.com/learn/python/install-python3-mac)
+- [Package management basics on Linux](https://www.digitalocean.com/community/tutorials/package-management-basics-apt-yum-dnf-pkg)
 
-Installing Python 3 on Windows 10 with Chocolatey
-
-Installing Python 3 on MacOS with Homebrew
-
-Package management basics on Linux
-
-Other information
-Python in the Microsoft Store for Windows 10
+#### Other information
+- [Python in the Microsoft Store for Windows 10](https://devblogs.microsoft.com/python/python-in-the-windows-10-may-2019-update/)
 
 
 
 
 
-## Setting up Your Environment
+## Running Python Locally
+
+
+
+### Setting up Your Environment
 After you’ve installed Python and checked that it works, the next step to set up your developer environment is to choose your main code editor. You’ve explored some code editors in Course 1.
 
 Here are some additional common editors for Python, available for all platforms:
 
-Eclipse
-
-PyCharm
-
-Sublime Text
-
-Visual Studio Code
+- [Eclipse](http://www.eclipse.org/)
+- [PyCharm](https://www.jetbrains.com/pycharm/)
+- [Sublime Text](http://www.sublimetext.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 You can read more about these editors, and others, in these overview comparatives:
+- [Python IDEs and Code Editors (Guide)](https://realpython.com/python-ides-code-editors-guide/#pycharm) This site compares tools that are built exclusively for Python code development and tools built for general development that you can use for Python and explains the pros and cons of each tool.
 
-Python IDEs and Code Editors (Guide)
-  This site compares tools that are built exclusively for Python code development and tools built for general development that you can use for Python and explains the pros and cons of each tool.
+- [Best Python IDEs and Code Editors](https://www.softwaretestinghelp.com/python-ide-code-editors/) This site explains the importance of an integrated development environment (IDE) and compares a number of Python IDEs and code editors that can be used on platforms such as Windows, Mac, or Linux.
 
-Best Python IDEs and Code Editors
- This site explains the importance of an integrated development environment (IDE) and compares a number of Python IDEs and code editors that can be used on platforms such as Windows, Mac, or Linux.
+- [Top 6 Python IDEs for Data Science](https://www.datacamp.com/community/tutorials/data-science-python-ide) This site reviews common IDEs in terms of functionality to benefit projects for data scientists.
 
-Top 6 Python IDEs for Data Science
- This site reviews common IDEs in terms of functionality to benefit projects for data scientists.
 
 We encourage you to try out these editors and pick your favorite. Then, install it on your computer and experiment with writing and executing Python scripts locally. To review best practices for using and saving Python files, check out the following:
-
-Review: Use the command-line
-
-Use the command-line
-
-Review: Use JupyterLab and Jupyter Notebooks
-
-Use JupyterLab and Jupyter Notebooks
-
-Review: Use Colab
-
-Use Colab
-
-Review: Use VS Code
-
-Use VS Code
-
-More on IDEs and code editors
+- [Review: Use the command-line](https://www.coursera.org/learn/python-crash-course/supplement/vBqPl/review-use-the-command-line)
+- [Use the command-line](https://www.coursera.org/learn/python-crash-course/lecture/Kz1Qr/use-the-command-line)
+- [Review: Use JupyterLab and Jupyter Notebooks](https://www.coursera.org/learn/python-crash-course/supplement/C2ll0/review-use-jupyterlab-and-jupyter-notebooks)
+- [Use JupyterLab and Jupyter Notebooks](https://www.coursera.org/learn/python-crash-course/lecture/e9iE9/use-jupyterlab-and-jupyter-notebooks)
+- [Review: Use Colab](https://www.coursera.org/learn/python-crash-course/supplement/xgTqT/review-use-colab)
+- [Use Colab](https://www.coursera.org/learn/python-crash-course/lecture/563SQ/use-colab)
+- [Review: Use VS Code](https://www.coursera.org/learn/python-crash-course/supplement/gcQVZ/review-use-vs-code)
+- [Use VS Code](https://www.coursera.org/learn/python-crash-course/lecture/DQhOO/use-vs-code)
+- [More on IDEs and code editors](https://www.coursera.org/learn/python-crash-course/supplement/5KUxr/more-on-ides-and-code-editors)
 
 
 
-
-
-## Virtual environments
+### Virtual environments
 A virtual environment in Python is a powerful tool that allows you to create isolated environments for your Python projects. Each environment acts as a sandbox, containing its own Python interpreter and library installations. This means you can have multiple projects with different dependencies, ensuring that they do not interfere with each other. In essence, virtual environments provide a clean slate where you can work on your projects without worrying about conflicting libraries or versions.
 
 
-### Why use a virtual environment in Python?
+#### Why use a virtual environment in Python?
 Imagine you're working on two separate Python projects—one requires a specific version of a library, while the other relies on a newer version. Without virtual environments, managing these dependencies could become a nightmare. Here's where `virtual environments` shine: they allow you to keep your projects isolated, ensuring that changes in one environment do not impact another.
 
 By using virtual environments, you can:
@@ -219,7 +182,7 @@ By using virtual environments, you can:
 - Collaborate with others while ensuring consistent library versions.
 
 
-### Using a Python virtual environment
+#### Using a Python virtual environment
 Creating and using a `virtual environment` is a straightforward process. To create a virtual environment, open your terminal and navigate to your project's directory. Then, run the following command:
 
 ```python
@@ -237,7 +200,7 @@ On macOS and Linux:
 Once activated, your terminal prompt will change, indicating that you are now working within the virtual environment. You can now install packages using `pip` just like you normally would.
 
 
-### Best practices and recommendations
+#### Best practices and recommendations
 As you dive into the world of `virtual environments`, keep these best practices in mind:
 
 1. **Create a virtual environment for each project:** Whenever you start a new project, create a new virtual environment. This ensures a clean and isolated workspace.
@@ -251,7 +214,7 @@ As you dive into the world of `virtual environments`, keep these best practices 
 5. **Upgrade pip and setuptools:** When you create a new virtual environment, it's a good practice to upgrade pip and setuptools to the latest version. This ensures you're using the most up-to-date tools.
 
 
-### Key takeaways
+#### Key takeaways
 Virtual environments are your key to maintaining a clean and efficient Python development workflow. By isolating your projects, you can work confidently, test various libraries, and ensure consistency across your codebase. With this newfound knowledge, you're well on your way to mastering the art of running Python locally and building robust applications. 
 
 [https://docs.python.org/3/library/venv.html](https://docs.python.org/3/library/venv.html)
@@ -260,12 +223,13 @@ Virtual environments are your key to maintaining a clean and efficient Python de
 
 
 
+## Automationg Tasks Through Programming
 
-## Is it worth the time?
+### Is it worth the time?
 Think about a task or process you’ve completed at work time and time again. Have you ever thought that there has to be a more efficient way to execute this routine task or process? Chances are—you’re right. Companies research whether automating processes or tasks saves labor time (and thus money), offers a soft return on investment (ROI), or both. If it’s worth it, the automated process will save labor time for the company, soft ROI benefits, or both. 
 
 
-### Soft ROI
+#### Soft ROI
 Soft ROI through automation is difficult to measure because, typically, there are no hard numbers or data to support it. Soft ROI metrics include improving:
 - Team collaboration
 - Team morale
@@ -275,7 +239,7 @@ Soft ROI through automation is difficult to measure because, typically, there ar
 Think back to the task or process you complete weekly, or even daily. If this task was automated—as an employee—you would be less likely to be bored and, in return, be more motivated to complete other tasks that are not rote, creating high morale in the workplace.
 
 
-### Is automation worthwhile?
+#### Is automation worthwhile?
 To determine if automating a process would save labor time, use the following formula:
 
 `Time_to_automate < (time_to_perform * amount_of_times_done)`
@@ -305,35 +269,26 @@ Then, divide both sides by 40 to get:
 It will take 15 weeks before the banking company starts saving time on the process. Remember, automating this process only needs to occur once. In addition, it helps employees by removing the need to think about the task and keeping up with the tracking of it.
 
 
-### Key takeaways
+#### Key takeaways
 Companies must decide whether it is worth the time, effort, and money to automate certain processes that are commonly used. To do this, calculate the ROI to determine if investing in workflow automation is beneficial to the company and its employees.   
 
 
 
+## Module Review
 
+### Glossary terms from Course 2, Module 1
 
-## Glossary terms from Course 2, Module 1
-
-### Terms and definitions from Course 2, Module 1
+#### Terms and definitions from Course 2, Module 1
 Compiled or compiled language: Supportable code that can be executed on different platforms
-
-**Integrated Development Environment (IDE):** A code editor with extra capabilities to simplify script writing
-
-**Interpreter or interpreted language:** An intermediary program used to execute the instructions specified in the code
-
-**Kernel:** The main core of an operating system that talks directly to hardware and manages the system’s resource
-
-**Linux:** An open source operating system where the software is free to share, modify, and distribute
-
-**Mac OS:** Operating system developed by Apple
-
-**Operating system (OS):** Software that manages everything that goes on in the computer, composed of two main parts: the kernel and the user space
-
-**User space:** Everything outside of the kernel that users interact with directly
-
-**Virtual environment:** A tool that allows you to create isolated environments for your Python projects
-
-**Windows OS:** Operating system developed by Microsoft
+- **Integrated Development Environment (IDE):** A code editor with extra capabilities to simplify script writing
+- **Interpreter or interpreted language:** An intermediary program used to execute the instructions specified in the code
+- **Kernel:** The main core of an operating system that talks directly to hardware and manages the system’s resource
+- **Linux:** An open source operating system where the software is free to share, modify, and distribute
+- **Mac OS:** Operating system developed by Apple
+- **Operating system (OS):** Software that manages everything that goes on in the computer, composed of two main parts: the kernel and the user space
+- **User space:** Everything outside of the kernel that users interact with directly
+- **Virtual environment:** A tool that allows you to create isolated environments for your Python projects
+- **Windows OS:** Operating system developed by Microsoft
 
 
 
@@ -350,23 +305,22 @@ Compiled or compiled language: Supportable code that can be executed on differen
 
 
 
-## Reading files
+## Reading and Writing Files
+
+### Review: Reading files
+
+#### Introduction
+This follow-along reading is organized to match the content in the video that follows. It contains the same code shown in the next video. These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
 
 
-### Introduction
-These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
-
-
-
-
-### About this code 
+#### open()
 ```python
 file = open("spider.txt")
 ```
 This line opens the file `spider.txt` in read mode. The `open()` function returns a file object which is assigned to the variable file.
 
 
-### About this code 
+#### readline(), read()
 ```python
 file = open("spider.txt")
 print(file.readline())
@@ -377,7 +331,7 @@ file.close()
 These lines print the first three lines of the file. The `readline()` method reads one line from the file and returns it as a string. The `read()` method reads the entire file and returns it as a string. The `close()` method closes the file.
 
 
-### About this code 
+### with open() as file:
 ```python
 file = open("spider.txt")
 print(file.readline())
@@ -393,13 +347,14 @@ Finally, the line that uses the `with` statement to open the file `spider.txt` i
 
 
 
-## Review: Iterating through files
+### Review: Iterating through files
 
+#### Introduction
+This follow-along reading is organized to match the content in the video that follows. It contains the same code shown in the next video. These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
 
-### Introduction
-These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
+You can follow along in the reading as the instructor discusses the code or review the code after watching the video.
 
-#### About this code
+#### for line in file:
 ```python
 with open("spider.txt") as file:
     for line in file:
@@ -425,7 +380,7 @@ AND THE ITSY BITSY SPIDER CLIMBED UP THE SPOUT AGAIN.
 Here there are spaces between the lines in the output. This is because there is a new line character at the end of each line. 
 
 
-#### About this code
+#### readlines()
 ```python
 with open("spider.txt") as file:
     for line in file:
@@ -465,13 +420,15 @@ Here, the lines have been sorted alphabetically, so they're no longer in the ord
 
 
 
-## Review: Writing files
+### Review: Writing files
 
 
-### Introduction
-These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
+#### Introduction
+This follow-along reading is organized to match the content in the video that follows. It contains the same code shown in the next video. These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
 
-#### About this code
+You can follow along in the reading as the instructor discusses the code or review the code after watching the video.
+
+#### write()
 ```python
 with open("novel.txt", "w") as file:
     file.write("It was a dark and stormy night")
@@ -485,10 +442,11 @@ The `write()` method of the file object takes a string as its argument and write
 
 
 
-## Study guide: Reading and writing files
+### Study guide: Reading and writing files
 Opening a file or file-like object to read or write is one of the fundamental steps of a Python programmer. For example, you may want to read a `.csv` file and convert it to `JSON` format. Or you may want to select data from a database and write it to an output file.
 
-### Reading and writing files
+
+#### Reading and writing files
 To **read** or **write** a file, use `open()`. This function includes two arguments: the `file path` and the `mode`.
 
 ```python
@@ -543,10 +501,14 @@ https://docs.python.org/3/library/functions.html#open
 
 
 
-## Review: How to write file paths in code
+## File Paths
 
-### Introduction
-These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
+### Review: How to write file paths in code
+
+#### Introduction
+This follow-along reading is organized to match the content in the video that follows. It contains the same code shown in the next video. These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
+
+You can follow along in the reading as the instructor discusses the code or review the code after watching the video.
 
 ```python
 #Windows file directory
@@ -577,12 +539,21 @@ outputs['current_directory_before'] = os.getcwd()
 
 
 
-## Working with files
-
-These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
+## Managing Files and Directories
 
 
-### Remove
+
+### Review: Working with files
+
+This reading contains the code used in the instructional videos from [Working with Files](https://www.coursera.org/learn/python-operating-system/lecture/z5WQc/working-with-files).
+
+
+#### Introduction
+This follow-along reading is organized to match the content in the video that follows. It contains the same code shown in the next video. These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
+
+You can follow along in the reading as the instructor discusses the code or review the code after watching the video.
+
+#### os.remove()
 This code removes the file novel.txt
 ```python
  import os
@@ -596,15 +567,13 @@ os.remove("novel.txt")
 os.remove("novel.txt")
 ```
 
-
-### Rename
+#### os.rename()
 This code can be used to **rename** a file. 
 ```python
 os.rename("first_draft.txt", "finished_masterpiece.txt")
 ```
 
-
-### Exists
+#### os.exists()
 This code checks whether or not a file exists. If the file exists it will return `True`. If the file does not exist it will return `False`.
 ```python
  os.path.exists("finished_masterpiece.txt")
@@ -612,22 +581,28 @@ This code checks whether or not a file exists. If the file exists it will return
 ```
 
 
-### Getsize 
+
+### Review: More file information
+
+#### Introduction
+This follow-along reading is organized to match the content in the video that follows. It contains the same code shown in the next video. These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
+
+You can follow along in the reading as the instructor discusses the code or review the code after watching the video.
+
+#### os.path.getsize() 
 This code will provide the file size
 ```python
 os.path.getsize("spider.txt")
 
 ```
 
-
-### Unix Timestamp
+#### os.path.getmtime()
 ```python
 os.path.getmtime("spider.txt")
 #This code will provide a unix timestamp for the file
 ```
 
-
-### Date and Time
+#### datetime.datetime.fromtimestamp()
 This code will provide the **date and time** for the file in an `#easy-to-understand` format
 ```python
 import datetime
@@ -635,29 +610,35 @@ timestamp = os.path.getmtime("spider.txt")
 datetime.datetime.fromtimestamp(timestamp)
 ```
 
-
-### Absolute path
+#### os.path.abspath()
 This code takes the file name and turns it into an absolute path
 ```python
 os.path.abspath("spider.txt")
 ```
 
 
-### Working Directory
+
+### Review: Directories
+This reading contains the code used in the instructional videos from [Directories](https://www.coursera.org/learn/python-operating-system/lecture/9wIkJ/directories).
+
+#### Introduction
+This follow-along reading is organized to match the content in the video that follows. It contains the same code shown in the next video. These code blocks will provide you with the opportunity to see how the code is written, allow you to practice running it, and can be used as a reference to refer back to. 
+
+You can follow along in the reading as the instructor discusses the code or review the code after watching the video.
+
+#### os.getcwd()
 This code snippet returns the current working directory.
 ```python
 print(os.getcwd())
 ```
 
-
-### Create Directory
+#### os.mkdir()
 The os.mkdir("new_dir") function creates a new directory called new_dir
 ```python
 os.mkdir("new_dir")
 ```
 
-
-### Change Directory
+#### os.chdir()
 This code snippet changes the current working directory to ```new_dir```. The second line prints the current working directory.
 
 ```python
@@ -665,23 +646,21 @@ os.chdir("new_dir")
 os.getcwd()
 ```
 
-### Delete Directory
+#### os.rmdir()
 This code snippet creates a new directory called newer_dir. The second line deletes the newer_dir directory.
 ```python
 os.mkdir("newer_dir")
 os.rmdir("newer_dir")
 ```
 
-
-### List Directory
+#### os.listdir()
 This code snippet returns a list of all the files and sub-directories in the website directory.
 ```python
 import os
 os.listdir("website")
 ```
 
-### All together
-
+#### All together
 Here is the code all together. This code defines a dir variable with the name of the directory that we want to check. This makes our code more readable and more usable. Then, it iterates through the file names returned by the os.listdir(). We know from our previous execution of this function that these are just the names of the files without directory. By using os.path.join(), we join the directory to each of those file names and create a string with a valid full name. Finally, we use that full name to call os.path.isdir() to check if it's a directory or a file. 
 
 ```python
@@ -696,16 +675,13 @@ Here is the code all together. This code defines a dir variable with the name of
 
 
 
+### Study guide: Files and directories
+Managing files and directories includes **creating**, **deleting**, and **moving** files and directories. It also includes changing ownership and permissions of the files and directories. There are several ways to **manage files and directories in Python**. One of the easiest ways is to use low-level functions in the OS and SYS modules that closely mimic standard Linux commands such as `os.mkdir()`and  `os.rmdir()`. Alternatively, you can utilize the `Pathlib` module, which provides an object-oriented interface to working with the file systems. 
 
+Let’s take a look at two examples. The first example uses `os`; the second uses `Pathlib`. These two code examples **do the same thing**: They create a directory called test1 and move a file named README.md from the sample_data folder into test1.
 
-## Study guide: Files and directories
-Managing files and directories includes creating, deleting, and moving files and directories. It also includes changing ownership and permissions of the files and directories. There are several ways to **manage files and directories in Python**. One of the easiest ways is to use low-level functions in the OS and SYS modules that closely mimic standard Linux commands such as `os.mkdir()`and  `os.rmdir()`. Alternatively, you can utilize the `Pathlib` module, which provides an object-oriented interface to working with the file systems. 
-
-Let’s take a look at two examples. The first example uses `OS`; the second uses `Pathlib`. These two code examples **do the same thing**: They create a directory called test1 and move a file named README.md from the sample_data folder into test1.
-
-
-### Using OS function
-An example of using the `OS` function to create a directory and move a file:
+#### Using `os` function
+An example of using the `os` function to create a directory and move a file:
 
 ```python
 # Create a directory and move a file from one directory to another
@@ -719,17 +695,15 @@ dest_dir = os.path.join(os.getcwd(), "test1")
 if not os.path.exists(dest_dir):
  os.mkdir(dest_dir)
 
-
 # Construct source and destination paths:
 src_file = os.path.join(os.getcwd(), "sample_data", "README.md")
 dest_file = os.path.join(os.getcwd(), "test1", "README.md")
-
 
 # Move the file from its original location to the destination:
 os.rename(src_file, dest_file)
 ```
 
-### Using Pathlib
+#### Using Pathlib
 Here is an example of using `Pathlib` to create a directory and move a file:
 
 ```python
@@ -751,37 +725,31 @@ dest_file = dest_dir / "README.md"
 src_file.rename(dest_file)
 ```
 
+#### The `os` module 
+Python’s `os` module, or the miscellaneous operating system interface, is very useful for file operations, directories, and permissions. Let’s take a look at each.
 
-### The OS module 
-Python’s `OS` module, or the miscellaneous operating system interface, is very useful for file operations, directories, and permissions. Let’s take a look at each.
-
-
-### File operations
+#### File operations
 File names can be thought of as two names separated by a dot. For example, helloworld.txt is the file name and the extension defines the file type. OS provides functions to create, read, update, and delete files. Some of the basic functions include:
 - Opening and closing files
 - Reading from and writing to files
 - Appending to files
 
-
-### Directories
+#### Directories
 OS also provides functions to create, read, update, and delete directories, as well as change directories and list files. Knowing how to use these functions is key to working with files. For example, `os.listdir( path )` returns a list of all files and subdirectories in a directory.
 
 
-### Permissions
+#### Permissions
 Having the ability to update file permissions is an important aspect of making installations from a terminal window. The `os.chmod()` provides the ability to create, read, and update permissions for individuals or groups.
 
-
-### Things to keep in mind  
+#### Things to keep in mind  
 One thing to be aware of is that `Python` treats text and binary files differently. Because Python is cross-platform, it tries to automatically handle different ASCII line endings. If you’re processing a binary file, make sure to open it in binary mode so Python doesn’t try to “fix” newlines in a binary file.
 
 A best practice is to always `close()` a file when you’re done reading or writing to it. Even though Python usually closes them for you, it’s a good signal to other people reading your code that you’re done with that file. Make sure to catch any potential errors from filesystem calls, such as permission denied, file not found, and so on. Generally, you wrap them in try/except to handle those errors.
 
-
-### Key takeaways
+#### Key takeaways
 There are several ways to manage files and directories in `Python`. One way is to use low-level functions in the OS and SYS modules that closely mimic standard Linux commands. Another way is to utilize the Pathlib module, which provides an object-oriented interface to working with the file systems. 
 
-
-### Resources for more information
+#### Resources for more information
 More information about files and directories can be found in several resources provided below: 
 - https://docs.python.org/3/library/os.html
 - https://docs.python.org/3/library/os.path.html
@@ -789,9 +757,7 @@ More information about files and directories can be found in several resources p
 
 
 
-
-
-## Review: Reading CSV files
+### Review: Reading CSV files
 
 The code above will read the data from the CSV file ```csv_file.txt``` and print the following information for each row:
 - Name
@@ -993,14 +959,9 @@ This [document](https://realpython.com/python-csv/) provides additional informat
 
 # Public
 
-[img010101]: /back-end-development/public/img010101_path_selected.png
-[img010102]: /back-end-development/public/img010102_initial_screen.png
-[img010103]: /back-end-development/public/img010103_mac_install_app.png
-[img010104]: /back-end-development/public/img010104_extensions_icon.png
-[img010105]: /back-end-development/public/img010105_python_extension.png
-[img010106]: /back-end-development/public/img010106_Screenshot-2022-06-23-at-16.58.30.png
-[img010107]: /back-end-development/public/img010107_Screenshot-2022-06-23-at-17.04.00.png
-[img010108]: /back-end-development/public/img010108_Screenshot-2022-06-23-at-17.12.24.png
+[img010101]: /google-It-Automation-with-Python/public/module01/img010101_IT201_2.png
+
+
 
 [img020101]: /back-end-development/public/img020101_For-Loop-Program.png
 [img020102]: /back-end-development/public/img020102_BED_C2M1L3_item07-img02.png
